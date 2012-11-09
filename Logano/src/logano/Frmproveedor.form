@@ -1,0 +1,307 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JFrameFormInfo">
+  <Properties>
+    <Property name="defaultCloseOperation" type="int" value="3"/>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <SyntheticProperties>
+    <SyntheticProperty name="formSizePolicy" type="int" value="1"/>
+  </SyntheticProperties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="txtempresa" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtcontacto" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="txttelefono" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="txtprovincia" alignment="0" min="-2" max="-2" attributes="0"/>
+                      <Component id="btaceptar" alignment="1" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <Component id="txtdireccion" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtmarca" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" attributes="0">
+                      <EmptySpace min="-2" pref="28" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Component id="tbempresa" alignment="0" pref="154" max="32767" attributes="0"/>
+                          <Component id="tbcontacto" alignment="0" pref="154" max="32767" attributes="0"/>
+                          <Component id="tbtelefono" alignment="0" pref="154" max="32767" attributes="0"/>
+                          <Component id="tbprovincia" alignment="0" pref="154" max="32767" attributes="0"/>
+                          <Component id="tbdireccion" alignment="0" pref="154" max="32767" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <EmptySpace max="-2" attributes="0"/>
+                      <Component id="btlimpiar" min="-2" max="-2" attributes="0"/>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Component id="btcancelar" min="-2" max="-2" attributes="0"/>
+                  </Group>
+              </Group>
+              <EmptySpace min="-2" pref="119" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="0" attributes="0">
+                  <Component id="txtnro_ingresos_brutos" alignment="0" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcod_postal" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtcuit" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtpais" alignment="0" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <Group type="103" groupAlignment="0" max="-2" attributes="0">
+                  <Component id="tbnro_ingresos_brutos" alignment="0" pref="126" max="32767" attributes="1"/>
+                  <Component id="tbcod_postal" alignment="0" max="32767" attributes="1"/>
+                  <Component id="tbcuit" alignment="0" pref="115" max="32767" attributes="1"/>
+                  <Component id="tbpais" alignment="0" max="32767" attributes="1"/>
+              </Group>
+              <EmptySpace min="-2" pref="525" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="0" attributes="0">
+              <EmptySpace min="-2" pref="41" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="1" attributes="0">
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="0" attributes="0">
+                          <Group type="102" alignment="0" attributes="0">
+                              <Component id="tbpais" min="-2" max="-2" attributes="0"/>
+                              <EmptySpace type="unrelated" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="tbcod_postal" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtcod_postal" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                              <EmptySpace type="separate" max="-2" attributes="0"/>
+                              <Group type="103" groupAlignment="3" attributes="0">
+                                  <Component id="tbcuit" alignment="3" min="-2" max="-2" attributes="0"/>
+                                  <Component id="txtcuit" alignment="3" min="-2" max="-2" attributes="0"/>
+                              </Group>
+                          </Group>
+                          <Component id="txtpais" alignment="0" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="tbnro_ingresos_brutos" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="txtnro_ingresos_brutos" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+                  <Group type="102" alignment="1" attributes="0">
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtempresa" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tbempresa" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtcontacto" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tbcontacto" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace type="separate" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txttelefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tbtelefono" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                      <EmptySpace min="-2" pref="16" max="-2" attributes="0"/>
+                      <Group type="103" groupAlignment="3" attributes="0">
+                          <Component id="txtprovincia" alignment="3" min="-2" max="-2" attributes="0"/>
+                          <Component id="tbprovincia" alignment="3" min="-2" max="-2" attributes="0"/>
+                      </Group>
+                  </Group>
+              </Group>
+              <EmptySpace type="separate" max="-2" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="txtmarca" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="txtdireccion" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="tbdireccion" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace pref="34" max="32767" attributes="0"/>
+              <Group type="103" groupAlignment="3" attributes="0">
+                  <Component id="btaceptar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btlimpiar" alignment="3" min="-2" max="-2" attributes="0"/>
+                  <Component id="btcancelar" alignment="3" min="-2" max="-2" attributes="0"/>
+              </Group>
+              <EmptySpace min="-2" pref="21" max="-2" attributes="0"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Component class="javax.swing.JButton" name="btaceptar">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="btaceptar.text"/>
+        <Property name="name" type="java.lang.String" value="btaceptar" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btaceptarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btlimpiar">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="btlimpiar.text"/>
+        <Property name="name" type="java.lang.String" value="btlimpiar" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btlimpiarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JButton" name="btcancelar">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="btcancelar.text"/>
+        <Property name="name" type="java.lang.String" value="btcancelar" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btcancelarActionPerformed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tbprovincia">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tbprovincia" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tbprovinciaKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tbcontacto">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tbcontacto" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tbcontactoKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tbtelefono">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tbtelefono" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tbtelefonoKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tbempresa">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tbempresa" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tbempresaKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtmarca">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="txtmarca.text"/>
+        <Property name="name" type="java.lang.String" value="txtmarca" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tbdireccion">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="tbdireccion" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tbdireccionKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtprovincia">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="txtprovincia.text"/>
+        <Property name="name" type="java.lang.String" value="txtprovincia" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtempresa">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="txtempresa.text"/>
+        <Property name="name" type="java.lang.String" value="txtempresa" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txttelefono">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="txttelefono.text"/>
+        <Property name="name" type="java.lang.String" value="txttelefono" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtcontacto">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="txtcontacto.text"/>
+        <Property name="name" type="java.lang.String" value="txtcontacto" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtdireccion">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="txtdireccion.text"/>
+        <Property name="name" type="java.lang.String" value="txtdireccion" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtpais">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="txtpais.text"/>
+        <Property name="name" type="java.lang.String" value="txtpais" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtcod_postal">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="txtcod_postal.text"/>
+        <Property name="name" type="java.lang.String" value="txtcod_postal" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtcuit">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="txtcuit.text"/>
+        <Property name="name" type="java.lang.String" value="txtcuit" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JLabel" name="txtnro_ingresos_brutos">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="txtnro_ingresos_brutos.text"/>
+        <Property name="name" type="java.lang.String" value="txtnro_ingresos_brutos" noResource="true"/>
+      </Properties>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tbpais">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tbpais.text"/>
+        <Property name="name" type="java.lang.String" value="tbpais" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="tbpaisActionPerformed"/>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tbpaisKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tbcod_postal">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tbcod_postal.text"/>
+        <Property name="name" type="java.lang.String" value="tbcod_postal" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tbcod_postalKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tbcuit">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tbcuit.text"/>
+        <Property name="name" type="java.lang.String" value="tbcuit" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tbcuitKeyPressed"/>
+      </Events>
+    </Component>
+    <Component class="javax.swing.JTextField" name="tbnro_ingresos_brutos">
+      <Properties>
+        <Property name="text" type="java.lang.String" resourceKey="tbnro_ingresos_brutos.text"/>
+        <Property name="name" type="java.lang.String" value="tbnro_ingresos_brutos" noResource="true"/>
+      </Properties>
+      <Events>
+        <EventHandler event="keyPressed" listener="java.awt.event.KeyListener" parameters="java.awt.event.KeyEvent" handler="tbnro_ingresos_brutosKeyPressed"/>
+      </Events>
+    </Component>
+  </SubComponents>
+</Form>

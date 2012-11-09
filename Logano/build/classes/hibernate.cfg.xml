@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC "-//Hibernate/Hibernate Configuration DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+  <session-factory>
+    <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+    <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+    <property name="hibernate.connection.url">jdbc:mysql://127.0.0.1:3306/LOGANO</property>
+    <property name="hibernate.connection.username">root</property>
+    <property name="hibernate.connection.password">1234</property>
+    <property name="hibernate.show_sql">true</property>
+
+    <mapping class="loganosystem.contrato.Banco"/>
+    <mapping class="loganosystem.contrato.Cheque"/>
+    <mapping class="loganosystem.contrato.Cheque_x_pago"/>
+    <mapping class="loganosystem.contrato.Cliente"/>
+    <mapping class="loganosystem.contrato.Comprobante"/>
+    <mapping class="loganosystem.contrato.Entidad"/>
+    <mapping class="loganosystem.contrato.Factura_item"/>
+    <mapping class="loganosystem.contrato.Forma_pago"/>
+    <mapping class="loganosystem.contrato.Gastos"/>
+    <mapping class="loganosystem.contrato.Pagos"/>
+    <mapping class="loganosystem.contrato.Permiso"/>
+    <mapping class="loganosystem.contrato.Producto"/>
+    <mapping class="loganosystem.contrato.Proveedor"/>
+    <mapping class="loganosystem.contrato.Proveedor_x_producto"/>
+    <mapping class="loganosystem.contrato.Stock"/>
+    <mapping class="loganosystem.contrato.Tarjeta"/>
+    <mapping class="loganosystem.contrato.Tipo_comprobante"/>
+     <mapping class="loganosystem.contrato.Usuario"/>
+
+  </session-factory>
+</hibernate-configuration>
